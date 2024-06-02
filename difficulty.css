@@ -1,0 +1,24 @@
+body {
+  background-color: #56d5eb;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 150px;
+  width: 380px;
+}
+#btn {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  margin: 10px;
+  transition: height 0.5s ease-out, width 0.5s ease-out;
+}
+
+#btn:hover {
+  box-shadow: 0 8px 8px 0 #000;
+  height: 105px;
+  width: 105px;
+}
