@@ -2,7 +2,6 @@
 IDS PROJECT
 QUIZZ APP
 Quizz starts from main it includes search function
-I am having difficulty in setuping the disable function once it is refreshed it works this is something I am not getting.
 It gets the categeory variable and redirects to the difficulty page
 On this page difficulty is selected and stored in local variable
 And directs to quiz page
