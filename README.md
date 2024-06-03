@@ -18,3 +18,5 @@ in the getNewQuestions start function is also called which will start the timer 
 
 after completing the questions it will redirect to the end page
 this will display the users scores and options for play again which will redirect to the main page
+
+Couldn't complete the calculator function
