@@ -38,8 +38,6 @@ if (categeory == "MATHS") {
   c = 23;
 } else if (categeory == "ANIMALS") {
   c = 27;
-} else if (categeory == "ARTS") {
-  c = 25;
 }
 let URL = `https://opentdb.com/api.php?amount=10&category=${c}&difficulty=${difficulty}&type=multiple`;
 
