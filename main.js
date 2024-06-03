@@ -14,6 +14,7 @@ optionsList.forEach(function (optionsListSingle) {
   optionsListSingle.addEventListener("click", function () {
     console.log(this);
     soValue.value = this.textContent;
+    searchBtn.disabled = !soValue.value;
     selectbox.classList.remove("active");
   });
 });
@@ -31,7 +32,7 @@ optionSearch.addEventListener("keyup", function () {
     }
   }
 });
-searchBtn.disabled = !soValue.value;
+
 
 searchBtn.addEventListener("click", function () {
   console.log(soValue.value);
